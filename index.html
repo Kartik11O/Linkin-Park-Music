@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="CSS/1.css">
     <link rel="stylesheet" href="CSS/2.css">
     <link rel="stylesheet" href="CSS/3.css">
-    <link rel="stylesheet" href="CSS/ROOT.css">
-    <link rel="stylesheet" href="CSS/Phone.css">
+    <link rel="stylesheet" href="CSS/PhoneNav.css">
+    <link rel="stylesheet" href="CSS/ROOT.css">|
+    <link rel="stylesheet" href="CSS/PhoneRotate.css">
+    <link rel="stylesheet" media="all and (max-width:600px)" href="CSS/Phone.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <style>
@@ -18,7 +20,36 @@
 </style>
 
 <body>
+
+    <section id="NavPhone">
+        <div id="Top">
+            <a href="#" class="fa fa-circle-o" id="" onclick="Open_Close()"></a>
+            <h1 id="Home"><a href="https://kartik11o.github.io/Linkin-Park/" id="Home_A">Linkin Park</a></h1>
+            <a href="" class=" fa fa-shopping-cart"></a>
+        </div>
+
+        <div id="container_NavPhone">
+
+            <h1 class="Animation_A"><a href="https://kartik11o.github.io/Linkin-Park-Music/">Music</a></h1>
+            <h1 class="Animation_B"><a href="https://kartik11o.github.io/Club/">Wild Club</a></h1>
+            <h1 class="Animation_C"><a href="https://kartik11o.github.io/Linkin-Park-Tour/">Tour</a></h1>
+            <h1 class="Animation_D"><a href="https://kartik11o.github.io/LinkinPark-Store/">Store</a></h1>
+        </div>
+
+    </section>
+
+    <Main id="Main_Page2">
+
     <section id="Second_page1">
+
+        <header id="NavPhone23">
+            <div id="Top">
+                <a href="#" class="fa fa-circle-o" onclick="Open_Close()"></a>
+                <h1 id="Home"><a href="https://kartik11o.github.io/Linkin-Park/" id="Home_A">Linkin Park</a></h1>
+                <a href="" class=" fa fa-shopping-cart"></a>
+            </div>
+        </header>
+
         <div id="nav-bar">
             <div class="box_1_nav">
                 <a href="https://kartik11o.github.io/Linkin-Park-Music/">Music</a>
@@ -28,7 +59,7 @@
             </div>
 
             <div class="box_2_nav">
-                <h2> <a href="https://kartik11o.github.io/Linkin-Park/">Linkin Park</a> </h2>
+                <h2> <a href="https://kartik11o.github.io/Linkin-Park/">Linkin Park</a></h2>
             </div>
             <div class="box_3_nav">
                 <h3>logic</h3>
@@ -37,46 +68,63 @@
                 <a href="" class="fa fa-shopping-cart"></a>
             </div>
         </div>
-        <div id="Box_Second1" class="ALLBoxP2_1"></div>
-        <div id="Box_Second2" class="ALLBoxP2_1">
-            <h1>LOST</h1>
-            <H3>ALBUM — 2023</H3>
-            <button class="BTN_Second">Listen</button>
+
+        <div class="containerPage-1">
+            <div id="Box_Second1" class="ALLBoxP2_1"></div>
+            <div id="Box_Second2" class="ALLBoxP2_1">
+                <h1>LOST</h1>
+                <H3>ALBUM — 2023</H3>
+                <button class="BTN_Second">Listen</button>
+            </div>
         </div>
+
     </section>
 
 
     <section id="Second_page2">
-        <div id="Box_Second2_1" class="ALLBoxP22"></div>
-        <div id="Box_Second2_2" class="ALLBoxP22">
-            <h1>One More Light</h1>
-            <H3>ALBUM — 2017</H3>
-            <button class="BTN_Second">Listen</button>
+
+        <div class="containerPage-2">
+
+            <div id="Box_Second2_1" class="ALLBoxP22"></div>
+            <div id="Box_Second2_2" class="ALLBoxP22">
+                <h1>One More Light</h1>
+                <H3>ALBUM — 2017</H3>
+                <button class="BTN_Second">Listen</button>
+            </div>
+
         </div>
     </section>
 
 
     <section id="Second_page3">
-        <div id="Box_Second3_1" class="ALLBoxP3"></div>
-        <div id="Box_Second3_2" class="ALLBoxP3">
-            <h1>Living Things</h1>
-            <H3>ALBUM — 2012</H3>
-            <button class="BTN_Second">Listen</button>
+
+        <div class="containerPage-3">
+
+            <div id="Box_Second3_1" class="ALLBoxP3"></div>
+            <div id="Box_Second3_2" class="ALLBoxP3">
+                <h1>Living Things</h1>
+                <H3>ALBUM — 2012</H3>
+                <button class="BTN_Second">Listen</button>
+            </div>
+
         </div>
     </section>
-    
+
     <footer id="First_footer">
-        <div class="Foot1">
-            <h1 id="email">EMAIL@EXAMPLE.COM</h1>
-        </div>
-        <div class="Foot1">
-            <h1>INSTAGRAM</h1>
-            <h1>TWITTER</h1>
-            <h1>YOUTUBE</h1>
-            <h1>SOUNDCLOUD</h1>
+        <div id="container_footer">
+            <div class="Foot1">
+                <h1 id="email">EMAIL@EXAMPLE.COM</h1>
+            </div>
+            <div class="Foot1">
+                <h1>INSTAGRAM</h1>
+                <h1>TWITTER</h1>
+                <h1>YOUTUBE</h1>
+                <h1>SOUNDCLOUD</h1>
+            </div>
         </div>
     </footer>
-
+</Main>
+    <script src="JS/NavPhone.js"></script>
 </body>
 
 </html>

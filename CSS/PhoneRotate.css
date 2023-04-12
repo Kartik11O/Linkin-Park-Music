@@ -1,0 +1,8 @@
+@media all and (max-device-width: 1007px) and (orientation: landscape){
+    html{
+        font-size: 50%;
+    }
+}
+#Box_Second2_2 h1 {
+    font-size: 4.5rem;
+}

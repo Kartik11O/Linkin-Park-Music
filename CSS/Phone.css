@@ -1,0 +1,78 @@
+html{
+    font-size: 50%;
+}
+
+#nav-bar{
+    display: none;
+}
+
+#NavPhone23{
+    display: block;
+}
+
+.containerPage-1 {
+    flex-direction: column-reverse;
+}
+
+.ALLBoxP2_1 {
+    margin-top: 0rem;
+}
+
+
+#Box_Second1 {
+    height: clamp(293px,44vh,293px);
+}
+
+#Box_Second2 {
+    height: clamp(253px,40vh,253px);
+}
+
+/*Container-2  */
+
+.containerPage-2 {
+    flex-direction: column-reverse;
+}
+
+.ALLBoxP2_1 {
+    margin-top: 0rem;
+}
+
+#Box_Second2_1 {
+    height: clamp(306px,46vh,306px);
+}
+
+#Box_Second2_2 {
+    height: clamp(213px,32vh,213px);
+}
+#Box_Second2_2 h1 {
+  margin-top: 0rem;
+}
+#Box_Second2_2 {
+    align-items: start;
+  
+}
+/*Container-3  */
+
+.containerPage-3 {
+    flex-direction: column-reverse;
+}
+
+.ALLBoxP2_1 {
+    margin-top: 0rem;
+}
+
+#Box_Second3_1 {
+    height: clamp(306px,46vh,306px);
+}
+
+#Box_Second3_2 {
+    height: clamp(293px,44vh,293px);
+}
+#Box_Second2_2 h1 {
+  margin-top: 0rem;
+}
+#Box_Second2_2 {
+    align-items: start;
+  
+}
+
